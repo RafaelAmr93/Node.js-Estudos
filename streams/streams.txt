@@ -1,0 +1,3 @@
+Extends EventEmitter
+Used to read and write files with more precise methods
+Send data in chunks

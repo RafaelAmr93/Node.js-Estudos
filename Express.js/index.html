@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="text/javascript" src="./app.js"></script>
+  </head>
+  <body>
+    <div id="login">
+      <div id="login_bar">Login</div>
+
+      <div id="input_login">
+        <form
+          method="POST"
+          action="endereço do script q vai mandar pro servidor"
+        >
+          <div>
+            <input type="email" placeholder="E-mail" />
+          </div>
+          <div>
+            <input
+              type="password"
+              placeholder="Senha"
+              class="fields"
+              id="psw"
+            />
+            <div id="forgot">
+              <!--será criado um pop-up aqui-->
+              <a href="" onclick="forgot()">Esqueceu sua senha?</a>
+            </div>
+          </div>
+          <input type="submit" value="Entrar" id="getin" />
+          <div id="login_aux">
+            <a href="/register/register.html">Fazer cadastro</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

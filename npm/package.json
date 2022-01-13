@@ -1,0 +1,18 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "my first npm package",
+  "main": "npm.js",
+  "scripts": {
+    "start": "node npm.js",
+    "dev": "nodemon npm.js"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

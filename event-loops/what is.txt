@@ -1,0 +1,8 @@
+Event-loops
+    The event loop is what allows Node.js to perform non-blocking I/O operations —
+despite the fact that JavaScript is single-threaded — by offloading operations to
+the system kernel whenever possible.
+    Some async functions can be used to offload other tasks to the browser while
+callbacks are called. So the imediate lines of code are executed while the callback
+are put on a waiting list to be executed.
+    Async function can be pending while the callbacks are executed.

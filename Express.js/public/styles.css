@@ -1,0 +1,46 @@
+#login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 65vh;
+}
+
+#login_bar {
+  background-color: orange;
+  width: 150px;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+form {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 10px;
+}
+
+input {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#psw {
+  margin-bottom: 0;
+}
+
+#getin {
+  width: 100px;
+  height: 25px;
+  background-color: orange;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  text-align: center;
+  margin-top: 10px;
+}

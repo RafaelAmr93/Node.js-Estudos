@@ -1,0 +1,4 @@
+New file:
+This is the third file made with fs module.
+    
+Also those are the previous files: This is the first file., This is the second file.
