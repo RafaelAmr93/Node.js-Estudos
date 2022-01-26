@@ -28,8 +28,9 @@ makeRequest('Google').then(response =>{
     console.log(processedResponse)
 }).catch(err =>{
     console.log(err)
-}).finally(console.log('Session closed'))*/
+}).finally(console.log('Session closed'))
 
+*/
 
 //com async/await
 

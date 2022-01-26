@@ -3,7 +3,8 @@ CALLBACKS -> são funções que possuem uma ou mais funções como parâmetro
 
 Abaixo, a função readFile preicsa de dois parâmetros: um arquivo e uma função
 Essa função que a readFile precisa, é uma função callback
-A função principal readFile só termina depois que a função callback termina.
+A função principal readFile só termina depois que a função callback termina, por isso
+é uma função síncrona (blocking code).
 */
 
 //criação da variável que chama pelo file system do node
@@ -20,4 +21,4 @@ function callback(err, conteudo) {
   }, 5000);
 }
 
-//setTimeout executa um bloco de código, nesse um arrow function, após um intervalo em milissegundos
+//setTimeout executa um bloco de código, nesse uma arrow function, após um intervalo em milissegundos
