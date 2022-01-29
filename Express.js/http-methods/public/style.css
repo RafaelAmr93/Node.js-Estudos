@@ -1,0 +1,41 @@
+nav {
+    background-color: rgb(172, 18, 82);
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white
+}
+
+form {
+background-color: rgb(172, 18, 82);
+margin: 0 auto;
+margin-top: 4rem;
+max-width: 500px;
+align-items: center;
+padding: 0.75rem;
+color: white;
+}
+
+#form-content{
+    display: block;
+}
+
+#name{
+    width: 490px;
+}
+
+#button{
+    width: 100%;
+    margin-top: rem;
+}
+
+input:placeholder-shown{
+    font-style: italic;
+}

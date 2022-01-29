@@ -1,5 +1,5 @@
 //CommonJS, every file is a module by default
-//Modules encapsulated code (only share minimum)
+//Modules encapsulate code (only share minimum)
 
 //remains local to the file
 const secret = 'My secret!'

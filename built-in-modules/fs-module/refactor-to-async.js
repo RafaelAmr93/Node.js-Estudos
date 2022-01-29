@@ -18,7 +18,7 @@ start()
 
 
 /* nesse caso, a leitura e escrita de arquivos é síncrona e possui callbacks, os códigos
-são executados em blocos e o readFile só termina após o writeFile temrinar
+são executados em blocos e o readFile só termina após o writeFile terminar
 Na opção acima, há o método assíncrono
 
 readFile('./third.txt', 'utf8', (err, result) =>{

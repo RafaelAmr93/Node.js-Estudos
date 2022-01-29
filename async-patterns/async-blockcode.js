@@ -1,6 +1,6 @@
 const http = require ('http')
 
-//this if sequence is cleaner than using nested callbacks as showed on the fs-assync code
+//this if sequence is cleaner than using nested callbacks as showed on the fs-callback code
 
 const server = http.createServer((req, res) =>{
     if (req.url === '/'){
