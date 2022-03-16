@@ -8,7 +8,7 @@ A função principal readFile só termina depois que a função callback termina
 */
 
 //criação da variável que chama pelo file system do node
-var fs = require("fs");
+let fs = require("fs");
 
 //CALLBACK não precisa de () ao ser passado como parametro
 fs.readFile("arquivo.txt", callback);

@@ -1,0 +1,25 @@
+{
+  "name": "recap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Express.js",
+  "scripts": {
+    "start": "nodemon recap.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelAmr93/Node.js-Estudos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RafaelAmr93/Node.js-Estudos/issues"
+  },
+  "homepage": "https://github.com/RafaelAmr93/Node.js-Estudos#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
